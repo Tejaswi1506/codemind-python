@@ -1,0 +1,16 @@
+bs=float(input())
+if(bs<=10000):
+    da=bs*0.80
+    hra=bs*0.20
+    gs=bs+da+hra
+    print("%.2f"%gs)
+elif(bs<=20000):
+    da=bs*0.9
+    hra=bs*0.25
+    gs=bs+da+hra
+    print("%.2f"%gs)
+elif(bs>20000):
+    da=bs*0.95
+    hra=bs*0.30
+    gs=bs+da+hra
+    print("%.2f"%gs)
